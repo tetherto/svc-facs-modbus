@@ -1,0 +1,43 @@
+{
+  "name": "svc-facs-modbus",
+  "version": "0.1.0",
+  "description": "svc facility for modbus client",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tetherto/svc-facs-modbus.git"
+  },
+  "keywords": [
+    "modbus",
+    "facility",
+    "rpc"
+  ],
+  "author": {
+    "name": "prdn",
+    "email": "paolo@bitfinex.com"
+  },
+  "maintainers": [
+    {
+      "name": "prdn",
+      "email": "paolo@bitfinex.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tetherto/svc-facs-modbus/issues"
+  },
+  "homepage": "https://github.com/tetherto/svc-facs-modbus#readme",
+  "dependencies": {
+    "@bitfinex/lib-js-util-promise": "git+https://github.com/bitfinexcom/lib-js-util-promise",
+    "async": "^3.2.4",
+    "bfx-facs-base": "git+https://github.com/bitfinexcom/bfx-facs-base.git"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
+  }
+}
