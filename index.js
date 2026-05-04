@@ -1,6 +1,6 @@
 'use strict'
 
-const BaseFacility = require('bfx-facs-base')
+const BaseFacility = require('@bitfinex/bfx-facs-base')
 const async = require('async')
 const { PROTOCOL } = require('./lib/constants')
 const TcpModbusClient = require('./lib/tcp.modbus')
