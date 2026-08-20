@@ -39,5 +39,9 @@
   },
   "devDependencies": {
     "standard": "^17.1.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
