@@ -1,6 +1,6 @@
 {
   "name": "@tetherto/svc-facs-modbus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "svc facility for modbus client",
   "main": "index.js",
   "scripts": {
